@@ -75,7 +75,7 @@ static int __init hello_start(void) {
 }
 
 static void __exit hello_end(void) {
-    printk(KERN_INFO "CJ is a nerd\n");
+    printk(KERN_INFO "\n");
 }
 
 module_init(hello_start);
